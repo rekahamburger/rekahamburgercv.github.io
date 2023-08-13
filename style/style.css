@@ -1,0 +1,191 @@
+@media only screen and (max-width: 620px){
+  body, #logohome {
+    width: 100%;
+    margin-left: -145px;
+  }
+}
+@media only screen and (max-width: 620px){
+  .container .cool-link{
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  margin-top: 400px;
+  margin-left: center;
+  font-size: 20px;
+ 
+  
+
+  }
+}
+ 
+
+
+
+
+
+@media only screen and (max-width: 620px){
+  #imgcv{
+   
+    width:160%;
+    position: relative;
+    margin-top: 2000px;
+    margin-bottom: 50px;
+     
+  }
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background:black;
+}
+
+.container{
+position:absolute;
+top: 55%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
+
+li{
+  display: inline-block;
+
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  font-size: 28px;
+  padding: 0 25px;
+
+}
+
+.cool-link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+
+.cool-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+h1{
+  margin-top: 300px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+}
+#cvh1{
+  margin-top: -250px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+}
+h2{
+  margin-top: 80px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+}
+
+
+h3{
+  color: #fff;
+  font-family: Source Sans Pro;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#contact1{
+  margin-top: -200px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+  
+  font-weight: lighter;
+  font-size: 28px;
+  padding: 0 25px;
+}
+
+#contact2{
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: Source Sans Pro;
+  
+  font-weight: lighter;
+  font-size: 28px;
+  padding: 0 25px;
+}
+h4{
+  color: #fff;
+}
+
+p{
+  color: white;
+  position: relative;
+  top: -240px;
+  left: 45%;
+  font-size: 30px;
+}
+
+
+#navcv{
+  margin-top: 20px;
+}
+
+.container2{
+  position:absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  }
+
+  .container3{
+   
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+
+  #logo{
+    size: 80px;
+  }
+ 
+
+  #logohome{
+    size: 80px;
+    position:relative;
+    top: 20%;
+    left: 35%;
+  
+  }
+
+
+  #cvimg{
+    margin-top: 30px;
+    margin-left: 255px;
+    margin-bottom: 30px;
+    width: 70%;
+  }
+
+#imgcv{  
+  width:60%;
+  margin-left: 450px;
+  margin-top: -350px;
+  margin-bottom: 150px;
+
+}
